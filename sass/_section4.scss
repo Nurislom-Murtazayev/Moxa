@@ -1,0 +1,46 @@
+.section4
+{
+    width: 100%;
+    margin-top: 120px;
+    .section4-text
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section4-main
+    {
+        margin-top: 60px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        .card4
+        {
+            width: 510px;
+            height: 196px;
+            border: 2px solid #161513;
+            padding: 34px;
+            h1 
+            {
+                font-weight: 400;
+                font-size: 31px;
+                line-height: 40px;
+                color: #161513;
+                letter-spacing: 0.64px;
+            }
+            p 
+            {
+                margin-top: 28px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 32px;
+                color: #161513;
+            }
+        }
+    }
+}

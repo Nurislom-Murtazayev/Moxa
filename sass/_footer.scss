@@ -1,0 +1,116 @@
+footer
+{
+    width: 100%;
+    margin-top: 136px;
+    .footer-top
+    {
+        width: 100%;
+        height: 176px;
+        background: #E6E3DE;
+        .container
+        {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            justify-content: space-between;
+        }
+        h1 
+        {
+            font-weight: 400;
+            font-size: 23px;
+            line-height: 32px;
+            color: #161513;
+            letter-spacing: 0.48px;
+        }
+        form 
+        {
+            display: flex;
+            gap: 24px;
+            input 
+            {
+                width: 354px;
+                height: 56px;
+                border: 2px solid #161513;
+                background-color: #E6E3DE;
+                padding-left: 21px;
+                &::placeholder
+                {
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 32;
+                    color: #161513;
+                    letter-spacing: 0.48px;
+                    
+                }
+            }
+            button 
+            {
+                width: 140px;
+                height: 56px;
+                background-color: #161513;
+                color: #fff;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 32px;
+                cursor: pointer;
+                transition: 0.3s linear;
+                &:hover
+                {
+                    color: #161513;
+                    background-color: #E6E3DE;
+                    border: 2px solid #161513;
+                }
+            }
+        }
+    }
+    .footer-bottom
+    {
+        width: 100%;
+        height: 220px;
+        background: #161513;
+        .container
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 30px;
+
+        }
+        span 
+        {
+            
+            p 
+            {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                color: #E6E3DE;
+                margin-top: 20px;
+            }
+            .menuu
+            {
+                display: flex;
+                gap: 46px;
+                margin-right: 50px;
+                align-items: center;
+                li 
+                {
+                    a 
+                    {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #fff;
+                    }
+                }
+            }
+            .links
+            {
+                display: flex;
+                gap: 16px;
+                margin-top: 70px;
+            }
+        }
+
+    }
+}

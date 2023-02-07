@@ -1,0 +1,85 @@
+.section3
+{
+    width: 100%;
+    margin-top: 120px;
+    .section3-text
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h1 
+        {
+            font-weight: 400;
+            font-size: 45px;
+            line-height: 56px;
+            color: #161513;
+            letter-spacing: 1.44px;
+            margin-top: 22px;
+        }
+        p 
+        {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 32px;
+            text-transform: uppercase;
+            letter-spacing: 1.44px;
+            color: #161513;
+            margin-top: 17px;
+        }
+    }
+    &-main 
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 61px;
+        gap: 95px;
+        justify-content: center;
+        align-items: center;
+        .portfolio
+        {
+            width: 1060px;
+            display: flex;
+            justify-content: space-between;
+            gap: 44px;
+            .p-text
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                padding: 20px 0;
+                p 
+                {
+                    background: #E94D35;
+                    width: 181px;
+                    height: 40px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 32px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #fff;
+                    text-transform: uppercase;
+                    letter-spacing: 1.44px;
+                }
+                h1 
+                {
+                    font-weight: 400;
+                    font-size: 45px;
+                    line-height: 56px;
+                    color: #161513;
+                    margin-top: 30px;
+                    letter-spacing: 1.44px;
+                }
+                a
+                {
+                    color: #161513;
+                    margin-top: 49px;
+                }
+            }
+        }
+    }
+}

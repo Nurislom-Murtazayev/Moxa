@@ -1,0 +1,141 @@
+header
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    nav 
+    {
+        width: 100%;
+        padding: 27px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .menu 
+        {
+            display: flex;
+            align-content: center;
+            gap: 32px;
+            li 
+            {
+                a 
+                {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #161513;
+                    border-bottom: 1px solid #161513;
+                    padding-bottom: 3px;
+                }
+            }
+        }
+        .btn-pr 
+        {
+            padding: 9px 26px;
+            border: 1px solid #161513;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #161513;
+            transition: 0.5s ease;
+            &:hover
+            {
+                background-color: #d3d3d3;
+            }
+        }
+    }
+    .banner
+    {
+        padding-top: 76px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .hero-text
+        {
+            h1 
+            {
+                font-weight: 400;
+                font-size: 56px;
+                line-height: 64px;
+                letter-spacing: 0.56px;
+                color: #161513;
+            }
+            p 
+            {
+                width: 472.5px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 35px;
+                font-weight: 400;
+                font-size: 23px;
+                line-height: 32px;
+                color: #161513;
+                letter-spacing: 0.48px;
+            }
+            span-two
+            {
+                display: flex;
+                align-items: center;
+                width: 353px;
+                height: 50px;
+                margin-top: 40px;
+                button 
+                {
+                padding: 13px 33px;
+                border: 1px solid #161513;
+                border-radius: 0px;
+                cursor: pointer;
+                }
+                .btn-1
+                {
+                background-color: #161513;
+                color: #fff;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                }
+                .btn-2
+                {
+                    background-color: #fff;
+                    color: #161513;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+            
+        }
+    }
+    .marque
+    {
+        position: absolute;
+        width: 6000px;
+        bottom: 150px;
+        height: 80px;
+        background-color: #161513;
+        transform: rotate(-4.93deg);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: #fff;
+        animation: suril 70s  linear infinite;
+        p 
+        {
+            color: white;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 32px;
+        }
+        
+    }
+}
+@keyframes suril {
+    from{
+        transform: rotate(-4.93deg) translateX(-1920px);
+    }
+    to{
+        transform: rotate(-4.93deg) translateX(-105%);
+    }
+    
+}

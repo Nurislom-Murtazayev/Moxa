@@ -1,0 +1,21 @@
+.section5
+{
+    width: 100%;
+    margin-top: 161px;
+    .section5-text
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section5-main
+    {
+        margin-top: 62px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+}

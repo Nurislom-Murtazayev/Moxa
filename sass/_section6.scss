@@ -1,0 +1,82 @@
+.section6
+{
+    width: 100%;
+    margin-top: 123px;
+    .section6-text
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section6-main
+    {
+        margin-top: 95px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        .abt6
+        {
+            height: 72px;
+            width: 1060;
+            padding: 1px 34px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #F2F1EF;
+            border: 2px solid #000000;
+            span 
+            {
+                p{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 32px;
+                    color: #E94D35;
+                    letter-spacing: 1.44px;
+                    text-transform: uppercase;
+                }
+                h3 
+                {
+                    font-weight: 400;
+                    font-size: 23px;
+                    line-height: 32px;
+                    color: #161513;
+                    letter-spacing: 0.48px;
+                }
+            }
+            p 
+            {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #161513;
+                width: 457px;
+            }
+        }
+        a 
+        {
+            width: 1060px;
+            height: 58px;
+            text-align: center;
+            background-color: #161513;
+            color: #fff;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.3s linear;
+            &:hover{
+                background-color: #fff;
+                color: #000000;
+                border: 2px solid #161513;
+                font-family: 'Bai Jamjuree', sans-serif;
+                font-weight: 400;
+            }
+        }
+    }
+}
